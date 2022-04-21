@@ -1,0 +1,32 @@
+{
+	"name": "dataset_2104",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage_2104",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "sample3.csv",
+				"fileSystem": "contain2104"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Game Number",
+				"type": "String"
+			},
+			{
+				"name": " \"Game Length\"",
+				"type": "String"
+			}
+		]
+	}
+}
