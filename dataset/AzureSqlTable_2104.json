@@ -1,0 +1,40 @@
+{
+	"name": "AzureSqlTable_2104",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase_2104_sql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "UserId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ProductId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ItemsPurchasedLast12Months",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "IsTopProduct",
+				"type": "bit"
+			},
+			{
+				"name": "IsPreferredProduct",
+				"type": "bit"
+			}
+		],
+		"typeProperties": {
+			"schema": "name",
+			"table": "UserTopProductPurchases"
+		}
+	}
+}
