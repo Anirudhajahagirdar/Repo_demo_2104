@@ -1,0 +1,9 @@
+{
+	"name": "df-production-env",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d7d5957a-2d9c-4677-b55c-01b6a34ece7c",
+		"tenantId": "a5b52581-6d9e-49b2-a803-d4eeb0422600"
+	}
+}
