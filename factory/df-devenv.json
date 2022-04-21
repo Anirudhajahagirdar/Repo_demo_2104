@@ -1,0 +1,9 @@
+{
+	"name": "df-devenv",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "346f5cde-a000-4511-8f02-bd929e807dbf",
+		"tenantId": "a5b52581-6d9e-49b2-a803-d4eeb0422600"
+	}
+}
